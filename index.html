@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
 
   <!-- ================= HEADER ================= -->
   <header class="header" id="header">
@@ -35,15 +36,14 @@
           <span class="header__cta-long">Cotizar Ahora / Asesoría Técnica</span>
           <span class="header__cta-short">Cotizar</span>
         </a>
-        <div class="header__avatar"><span class="material-symbols-outlined">person</span></div>
         <button class="header__menu-btn" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
-          <span class="material-symbols-outlined">menu</span>
+          <span class="material-symbols-outlined" aria-hidden="true">menu</span>
         </button>
       </div>
     </div>
   </header>
 
-  <main class="main">
+  <main class="main" id="main" tabindex="-1">
 
     <!-- ================= SECCIÓN 1: HERO ================= -->
     <section class="hero" id="inicio">
@@ -64,46 +64,46 @@
 
           <div class="hero__actions">
             <a class="btn btn--accent" href="#contacto">
-              <span class="material-symbols-outlined">request_quote</span>
+              <span class="material-symbols-outlined" aria-hidden="true">request_quote</span>
               Solicitar Cotización Inmediata
             </a>
             <a class="btn btn--glass" href="#productos">
-              <span class="material-symbols-outlined">layers</span>
+              <span class="material-symbols-outlined" aria-hidden="true">layers</span>
               Explorar Productos
             </a>
           </div>
 
           <div class="hero__checks">
-            <div class="hero__check"><span class="material-symbols-outlined icon-fill">check_circle</span><span>100% Adherencia Química</span></div>
-            <div class="hero__check"><span class="material-symbols-outlined icon-fill">check_circle</span><span>Aplicación en Frío Sin Soplete</span></div>
-            <div class="hero__check"><span class="material-symbols-outlined icon-fill">check_circle</span><span>Transitabilidad Total</span></div>
+            <div class="hero__check"><span class="material-symbols-outlined icon-fill" aria-hidden="true">check_circle</span><span>100% Adherencia Química</span></div>
+            <div class="hero__check"><span class="material-symbols-outlined icon-fill" aria-hidden="true">check_circle</span><span>Aplicación en Frío Sin Soplete</span></div>
+            <div class="hero__check"><span class="material-symbols-outlined icon-fill" aria-hidden="true">check_circle</span><span>Transitabilidad Total</span></div>
           </div>
         </div>
 
         <div class="stats">
           <div class="stat">
-            <div class="stat__icon"><span class="material-symbols-outlined">history_edu</span></div>
+            <div class="stat__icon"><span class="material-symbols-outlined" aria-hidden="true">history_edu</span></div>
             <div>
               <div class="stat__value">15+ Años</div>
               <div class="stat__label">Liderazgo en Cubiertas</div>
             </div>
           </div>
           <div class="stat">
-            <div class="stat__icon"><span class="material-symbols-outlined">water_drop</span></div>
+            <div class="stat__icon"><span class="material-symbols-outlined" aria-hidden="true">water_drop</span></div>
             <div>
               <div class="stat__value">100%</div>
               <div class="stat__label">Impermeabilidad Continua</div>
             </div>
           </div>
           <div class="stat">
-            <div class="stat__icon"><span class="material-symbols-outlined">approval</span></div>
+            <div class="stat__icon"><span class="material-symbols-outlined" aria-hidden="true">approval</span></div>
             <div>
               <div class="stat__value">ISO 9001</div>
               <div class="stat__label">Calidad Certificada</div>
             </div>
           </div>
           <div class="stat">
-            <div class="stat__icon"><span class="material-symbols-outlined">engineering</span></div>
+            <div class="stat__icon"><span class="material-symbols-outlined" aria-hidden="true">engineering</span></div>
             <div>
               <div class="stat__value">Técnica</div>
               <div class="stat__label">Asesoramiento en Obra</div>
@@ -122,32 +122,32 @@
           <p class="section-lead">En TECTIA transformamos la protección estructural mediante formulaciones avanzadas de polímeros elastoméricos de curado al aire. Respaldamos a constructoras, estudios de arquitectura e industrias con asesoramiento de ingeniería in situ, especificación personalizada y protocolos rigurosos de aplicación para erradicar las filtraciones para siempre.</p>
         </div>
 
-        <div class="pillars">
+        <div class="reveal pillars">
           <article class="pillar">
             <div>
-              <div class="pillar__icon pillar__icon--primary"><span class="material-symbols-outlined">view_stream</span></div>
+              <div class="pillar__icon pillar__icon--primary"><span class="material-symbols-outlined" aria-hidden="true">view_stream</span></div>
               <h3 class="pillar__title">Tecnología Continua Sin Juntas</h3>
               <p class="pillar__text">A diferencia de las mantas tradicionales, nuestras membranas forman una película monolítica 100% adherida al sustrato, anulando el riesgo de desprendimiento, bolsas de aire o fatiga en soldaduras.</p>
             </div>
-            <div class="pillar__foot"><span class="material-symbols-outlined">done_all</span><span>Cero riesgo de filtración lateral</span></div>
+            <div class="pillar__foot"><span class="material-symbols-outlined" aria-hidden="true">done_all</span><span>Cero riesgo de filtración lateral</span></div>
           </article>
 
           <article class="pillar">
             <div>
-              <div class="pillar__icon pillar__icon--secondary"><span class="material-symbols-outlined">wb_sunny</span></div>
+              <div class="pillar__icon pillar__icon--secondary"><span class="material-symbols-outlined" aria-hidden="true">wb_sunny</span></div>
               <h3 class="pillar__title">Eficiencia Térmica &amp; Resistencia UV</h3>
               <p class="pillar__text">Propiedades Cool Roof con Índice de Reflectancia Solar superior al 105%. Reduce hasta 15°C la temperatura superficial de la cubierta, prolongando la vida del hormigón y bajando el consumo de climatización.</p>
             </div>
-            <div class="pillar__foot"><span class="material-symbols-outlined">trending_down</span><span>Ahorro sustancial de energía</span></div>
+            <div class="pillar__foot"><span class="material-symbols-outlined" aria-hidden="true">trending_down</span><span>Ahorro sustancial de energía</span></div>
           </article>
 
           <article class="pillar">
             <div>
-              <div class="pillar__icon pillar__icon--tertiary"><span class="material-symbols-outlined">support_agent</span></div>
+              <div class="pillar__icon pillar__icon--tertiary"><span class="material-symbols-outlined" aria-hidden="true">support_agent</span></div>
               <h3 class="pillar__title">Soporte Técnico en Obra</h3>
               <p class="pillar__text">Nuestros ingenieros de campo realizan relevamiento termográfico, prueba de humedad y capacitación de cuadrillas directamente en su obra. Diagnóstico inicial sin cargo para proyectos comerciales y residenciales.</p>
             </div>
-            <div class="pillar__foot"><span class="material-symbols-outlined">verified</span><span>Seguimiento y acta de garantía</span></div>
+            <div class="pillar__foot"><span class="material-symbols-outlined" aria-hidden="true">verified</span><span>Seguimiento y acta de garantía</span></div>
           </article>
         </div>
       </div>
@@ -162,15 +162,17 @@
             <h2 class="section-title">Nuestras Soluciones Especializadas</h2>
           </div>
 
-          <div class="filters" id="productFilterNav">
-            <button class="filter-btn is-active" data-filter="all" type="button">Todos</button>
-            <button class="filter-btn" data-filter="poliuretano" type="button">Poliuretano Alifático</button>
-            <button class="filter-btn" data-filter="acrilico" type="button">Acrílicos Fibrados</button>
-            <button class="filter-btn" data-filter="termico" type="button">Térmicos Reflectivos</button>
+          <div class="filters" id="productFilterNav" role="group" aria-label="Filtrar productos por familia">
+            <button class="filter-btn is-active" data-filter="all" type="button" aria-pressed="true">Todos</button>
+            <button class="filter-btn" data-filter="poliuretano" type="button" aria-pressed="false">Poliuretano Alifático</button>
+            <button class="filter-btn" data-filter="acrilico" type="button" aria-pressed="false">Acrílicos Fibrados</button>
+            <button class="filter-btn" data-filter="termico" type="button" aria-pressed="false">Térmicos Reflectivos</button>
           </div>
         </div>
 
-        <div class="products" id="productGrid">
+        <p class="products-count" id="productCount" aria-live="polite">Mostrando 4 productos</p>
+
+        <div class="reveal products" id="productGrid">
           <!-- Producto 1 -->
           <article class="product-card" data-category="poliuretano">
             <div>
@@ -199,8 +201,8 @@
               </div>
             </div>
             <div class="product-card__actions">
-              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia PolyFlex 500">Ficha PDF</button>
-              <a class="btn-sm btn-sm--buy" href="#contacto">Comprar</a>
+              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia LateXpress"><span class="material-symbols-outlined" aria-hidden="true">picture_as_pdf</span>Ficha PDF</button>
+              <a class="btn-sm btn-sm--buy" href="#contacto" data-quote="Tectia LateXpress">Cotizar<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
             </div>
           </article>
 
@@ -232,8 +234,8 @@
               </div>
             </div>
             <div class="product-card__actions">
-              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia AcrylTech Pro">Ficha PDF</button>
-              <a class="btn-sm btn-sm--buy" href="#contacto">Comprar</a>
+              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia AcrylTech Pro"><span class="material-symbols-outlined" aria-hidden="true">picture_as_pdf</span>Ficha PDF</button>
+              <a class="btn-sm btn-sm--buy" href="#contacto" data-quote="Tectia AcrylTech Pro">Cotizar<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
             </div>
           </article>
 
@@ -263,8 +265,8 @@
               </div>
             </div>
             <div class="product-card__actions">
-              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia ThermoShield Cool Roof">Ficha PDF</button>
-              <a class="btn-sm btn-sm--buy" href="#contacto">Comprar</a>
+              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia ThermoShield Cool Roof"><span class="material-symbols-outlined" aria-hidden="true">picture_as_pdf</span>Ficha PDF</button>
+              <a class="btn-sm btn-sm--buy" href="#contacto" data-quote="Tectia ThermoShield">Cotizar<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
             </div>
           </article>
 
@@ -291,8 +293,8 @@
               </div>
             </div>
             <div class="product-card__actions">
-              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia Prime Hydro">Ficha PDF</button>
-              <a class="btn-sm btn-sm--buy" href="#contacto">Comprar</a>
+              <button class="btn-sm btn-sm--ghost" type="button" data-datasheet="Tectia Prime Hydro"><span class="material-symbols-outlined" aria-hidden="true">picture_as_pdf</span>Ficha PDF</button>
+              <a class="btn-sm btn-sm--buy" href="#contacto" data-quote="Tectia Prime Hydro">Cotizar<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
             </div>
           </article>
         </div>
@@ -308,42 +310,42 @@
           <p class="section-lead section-lead--sm">Comprueba por qué los proyectos de arquitectura moderna y cubiertas críticas reemplazan los sistemas de soplete con mantas asfálticas por polímeros líquidos elastoméricos.</p>
         </div>
 
-        <div class="table-wrap">
+        <div class="reveal table-wrap">
           <table class="compare">
             <thead>
               <tr>
-                <th>Parámetro Constructivo</th>
-                <th class="compare__ours">
+                <th scope="col">Parámetro Constructivo</th>
+                <th scope="col" class="compare__ours">
                   <div class="compare__cell"><span class="material-symbols-outlined compare__badge">verified</span><span>Sistemas Líquidos TECTIA</span></div>
                 </th>
-                <th class="compare__theirs">Membrana Asfáltica Tradicional</th>
+                <th scope="col" class="compare__theirs">Membrana Asfáltica Tradicional</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Uniones y Solapes</td>
-                <td><div class="compare__cell"><span class="material-symbols-outlined compare__check">check_circle</span><span>0% uniones: Membrana monolítica 100% continua</span></div></td>
-                <td>1 unión cada metro. Solapes vulnerables al despegue por calor y agua estancada.</td>
+                <th scope="row">Uniones y Solapes</th>
+                <td data-label="TECTIA"><div class="compare__cell"><span class="material-symbols-outlined compare__check" aria-hidden="true">check_circle</span><span>0% uniones: Membrana monolítica 100% continua</span></div></td>
+                <td data-label="Asfáltica tradicional"><div class="compare__cell"><span class="material-symbols-outlined compare__cross" aria-hidden="true">cancel</span><span>1 unión cada metro. Solapes vulnerables al despegue por calor y agua estancada.</span></div></td>
               </tr>
               <tr>
-                <td>Método de Aplicación</td>
-                <td><div class="compare__cell"><span class="material-symbols-outlined compare__check">check_circle</span><span>Aplicación en frío (rodillo o airless), sin fuego</span></div></td>
-                <td>Requiere soplete con gas inflamable a fuego vivo. Alto riesgo de incendio en obra.</td>
+                <th scope="row">Método de Aplicación</th>
+                <td data-label="TECTIA"><div class="compare__cell"><span class="material-symbols-outlined compare__check" aria-hidden="true">check_circle</span><span>Aplicación en frío (rodillo o airless), sin fuego</span></div></td>
+                <td data-label="Asfáltica tradicional"><div class="compare__cell"><span class="material-symbols-outlined compare__cross" aria-hidden="true">cancel</span><span>Requiere soplete con gas inflamable a fuego vivo. Alto riesgo de incendio en obra.</span></div></td>
               </tr>
               <tr>
-                <td>Adherencia al Sustrato</td>
-                <td><div class="compare__cell"><span class="material-symbols-outlined compare__check">check_circle</span><span>Totalmente adherida: si se perfora, el agua no migra</span></div></td>
-                <td>Adherencia puntual. El agua viaja por debajo dificultando ubicar la filtración real.</td>
+                <th scope="row">Adherencia al Sustrato</th>
+                <td data-label="TECTIA"><div class="compare__cell"><span class="material-symbols-outlined compare__check" aria-hidden="true">check_circle</span><span>Totalmente adherida: si se perfora, el agua no migra</span></div></td>
+                <td data-label="Asfáltica tradicional"><div class="compare__cell"><span class="material-symbols-outlined compare__cross" aria-hidden="true">cancel</span><span>Adherencia puntual. El agua viaja por debajo dificultando ubicar la filtración real.</span></div></td>
               </tr>
               <tr>
-                <td>Transitabilidad y Uso</td>
-                <td><div class="compare__cell"><span class="material-symbols-outlined compare__check">check_circle</span><span>Apta para tránsito peatonal intensivo y mobiliario</span></div></td>
-                <td>Frágil al punzonamiento. El aluminio se quiebra o despega al caminar continuamente.</td>
+                <th scope="row">Transitabilidad y Uso</th>
+                <td data-label="TECTIA"><div class="compare__cell"><span class="material-symbols-outlined compare__check" aria-hidden="true">check_circle</span><span>Apta para tránsito peatonal intensivo y mobiliario</span></div></td>
+                <td data-label="Asfáltica tradicional"><div class="compare__cell"><span class="material-symbols-outlined compare__cross" aria-hidden="true">cancel</span><span>Frágil al punzonamiento. El aluminio se quiebra o despega al caminar continuamente.</span></div></td>
               </tr>
               <tr>
-                <td>Mantenimiento y Renovación</td>
-                <td><div class="compare__cell"><span class="material-symbols-outlined compare__check">check_circle</span><span>Renovación indefinida por simple repintado de capa final</span></div></td>
-                <td>Requiere demolición y descarte completo de las capas viejas (escombros costosos).</td>
+                <th scope="row">Mantenimiento y Renovación</th>
+                <td data-label="TECTIA"><div class="compare__cell"><span class="material-symbols-outlined compare__check" aria-hidden="true">check_circle</span><span>Renovación indefinida por simple repintado de capa final</span></div></td>
+                <td data-label="Asfáltica tradicional"><div class="compare__cell"><span class="material-symbols-outlined compare__cross" aria-hidden="true">cancel</span><span>Requiere demolición y descarte completo de las capas viejas (escombros costosos).</span></div></td>
               </tr>
             </tbody>
           </table>
@@ -353,12 +355,12 @@
 
     <!-- ================= SECCIÓN 5: CONTACTO Y COTIZADOR ================= -->
     <section class="section" id="contacto">
-      <div class="container contact-grid">
+      <div class="reveal container contact-grid">
 
         <!-- Cotizador -->
         <div class="panel">
           <div class="panel__head">
-            <div class="chip chip--secondary"><span class="material-symbols-outlined">calculate</span>Cotizador Online Inmediato</div>
+            <div class="chip chip--secondary"><span class="material-symbols-outlined" aria-hidden="true">calculate</span>Cotizador Online Inmediato</div>
             <h2 class="panel__title">Calcula tus Materiales</h2>
             <p class="panel__text">Configura las dimensiones de tu superficie para obtener una estimación técnica instantánea de consumo y capas recomendadas.</p>
           </div>
@@ -385,56 +387,68 @@
 
             <div class="field">
               <div class="field__row">
-                <label class="field__label" for="calcMetros">Superficie a Tratar: <span class="field__value" id="calcMetrosVal">250 m²</span></label>
+                <label class="field__label" for="calcMetrosNum">Superficie a Tratar</label>
                 <span class="field__hint">20 a 2.000 m²</span>
               </div>
-              <input class="range" id="calcMetros" type="range" min="20" max="2000" step="10" value="250">
+              <div class="area-input">
+                <input class="range" id="calcMetros" type="range" min="20" max="2000" step="10" value="250" aria-label="Superficie a tratar en metros cuadrados" aria-controls="calcResult">
+                <div class="area-input__num">
+                  <input class="input" id="calcMetrosNum" type="number" inputmode="numeric" min="20" max="2000" step="1" value="250">
+                  <span aria-hidden="true">m²</span>
+                </div>
+              </div>
             </div>
 
-            <div class="estimate">
+            <div class="estimate" id="calcResult" aria-live="polite">
               <div class="estimate__head">
                 <div class="estimate__live"><span class="pulse-dot"></span><span>Cálculo en Tiempo Real</span></div>
-                <span class="estimate__badge">10 Años Certificados</span>
+                <span class="estimate__badge" id="estGarantia">10 Años de Garantía</span>
               </div>
               <div class="estimate__total">
                 <span class="estimate__label">Cantidad Total Recomendada:</span>
                 <div class="estimate__amount">
-                  <span class="estimate__value" id="estLitros">450 kg</span>
-                  <span class="estimate__note" id="estBaldes">(aprox. 23 baldes de 20 Kg)</span>
+                  <span class="estimate__value" id="estLitros">–</span>
+                  <span class="estimate__note" id="estBaldes"></span>
                 </div>
               </div>
               <div class="estimate__breakdown">
                 <span class="estimate__label">Desglose por Capas:</span>
-                <span class="estimate__layers" id="estCapas">1 Mano Imprimación (50 kg)<br>+ 2 Manos Poliuretano (400 kg)</span>
+                <span class="estimate__layers" id="estCapas"></span>
               </div>
+              <p class="estimate__disclaimer">Estimación referencial con 5% de merma. Un especialista confirma consumos tras la inspección.</p>
             </div>
+
+            <button class="btn btn--outline btn--block" type="button" id="calcToContact">
+              <span class="material-symbols-outlined" aria-hidden="true">forward_to_inbox</span>
+              Solicitar cotización con este cálculo
+            </button>
           </form>
         </div>
 
         <!-- Contacto -->
         <div class="panel">
           <div class="panel__head">
-            <div class="chip chip--primary"><span class="material-symbols-outlined">contact_support</span>Contacto &amp; Consultas</div>
+            <div class="chip chip--primary"><span class="material-symbols-outlined" aria-hidden="true">contact_support</span>Contacto &amp; Consultas</div>
             <h2 class="panel__title">Asesoría Técnica Especializada</h2>
             <p class="panel__text">¿Tienes dudas sobre especificaciones arquitectónicas, patologías o requisitos en obra? Envíanos tu consulta.</p>
           </div>
 
-          <form class="form" id="generalContactForm">
+          <form class="form" id="generalContactForm" novalidate>
             <div class="form__grid">
               <div class="field">
                 <label class="field__label" for="contactName">Nombre y Apellido *</label>
-                <input class="input" id="contactName" type="text" placeholder="Ej. Andrea Morales" required>
+                <input class="input" id="contactName" type="text" autocomplete="name" placeholder="Ej. Andrea Morales" required>
               </div>
               <div class="field">
                 <label class="field__label" for="contactEmail">Correo Electrónico *</label>
-                <input class="input" id="contactEmail" type="email" placeholder="andrea@empresa.com" required>
+                <input class="input" id="contactEmail" type="email" autocomplete="email" placeholder="andrea@empresa.com" required>
               </div>
             </div>
 
             <div class="form__grid">
               <div class="field">
                 <label class="field__label" for="contactPhone">Teléfono / WhatsApp *</label>
-                <input class="input" id="contactPhone" type="tel" placeholder="+56 9 8765 4321" required>
+                <input class="input" id="contactPhone" type="tel" autocomplete="tel" placeholder="+56 9 8765 4321" required>
               </div>
               <div class="field">
                 <label class="field__label" for="contactProfile">Tipo de Solicitante *</label>
@@ -450,16 +464,17 @@
 
             <div class="field">
               <label class="field__label" for="contactMessage">Mensaje o Consulta Técnica *</label>
-              <textarea class="input input--area" id="contactMessage" rows="3" placeholder="Describa su proyecto, filtraciones actuales, ubicación de obra o requerimientos específicos..." required></textarea>
+              <textarea class="input input--area" id="contactMessage" rows="4" placeholder="Describa su proyecto, filtraciones actuales, ubicación de obra o requerimientos específicos..." required></textarea>
             </div>
 
-            <button class="btn btn--tertiary btn--block" type="submit">
-              <span class="material-symbols-outlined">send</span>
+            <button class="btn btn--tertiary btn--block" type="submit" id="contactSubmit">
+              <span class="material-symbols-outlined" aria-hidden="true">send</span>
               Enviar Consulta Técnica
             </button>
+            <p class="form__note"><span class="material-symbols-outlined" aria-hidden="true">lock</span>Tus datos sólo se usan para responder tu consulta. Respuesta en menos de 24 h hábiles.</p>
 
-            <div class="feedback" id="contactFeedback" hidden>
-              <span class="material-symbols-outlined">task_alt</span>
+            <div class="feedback" id="contactFeedback" role="status" tabindex="-1" hidden>
+              <span class="material-symbols-outlined" aria-hidden="true">task_alt</span>
               <div>
                 <div class="feedback__title">¡Consulta enviada exitosamente!</div>
                 <div class="feedback__text">Un especialista en impermeabilizaciones se comunicará dentro del día laboral.</div>
@@ -498,10 +513,10 @@
         <div class="footer__col">
           <h4 class="footer__title">Contacto Técnico</h4>
           <div class="footer__contact">
-            <div class="footer__item"><span class="material-symbols-outlined">call</span><span>+56 (2) 2890 4500<br><small>Línea Directa Contratistas</small></span></div>
-            <div class="footer__item"><span class="material-symbols-outlined">mail</span><span>proyectos@tectia.com<br><small>Respuesta en menos de 24h</small></span></div>
-            <div class="footer__item"><span class="material-symbols-outlined">location_on</span><span>Av. Industrial El Bosque 1420, Módulo D, Parque Industrial Norte</span></div>
-            <div class="footer__item"><span class="material-symbols-outlined">schedule</span><span>Lun - Vie: 08:30 a 18:30 hrs</span></div>
+            <div class="footer__item"><span class="material-symbols-outlined" aria-hidden="true">call</span><span><a href="tel:+56228904500">+56 (2) 2890 4500</a><br><small>Línea Directa Contratistas</small></span></div>
+            <div class="footer__item"><span class="material-symbols-outlined" aria-hidden="true">mail</span><span><a href="mailto:proyectos@tectia.com">proyectos@tectia.com</a><br><small>Respuesta en menos de 24h</small></span></div>
+            <div class="footer__item"><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Av. Industrial El Bosque 1420, Módulo D, Parque Industrial Norte</span></div>
+            <div class="footer__item"><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span>Lun - Vie: 08:30 a 18:30 hrs</span></div>
           </div>
         </div>
 
@@ -509,9 +524,9 @@
           <h4 class="footer__title">Conexión &amp; Sellos</h4>
           <p class="footer__text">Siga las auditorías técnicas y registros de obra en nuestras plataformas oficiales:</p>
           <div class="social">
-            <a class="social__link" href="#" aria-label="Canal Técnico"><span class="material-symbols-outlined">terminal</span></a>
-            <a class="social__link" href="#" aria-label="Red de Contacto"><span class="material-symbols-outlined">corporate_fare</span></a>
-            <a class="social__link" href="#" aria-label="Publicaciones"><span class="material-symbols-outlined">public</span></a>
+            <a class="social__link" href="#" aria-label="Canal Técnico"><span class="material-symbols-outlined" aria-hidden="true">terminal</span></a>
+            <a class="social__link" href="#" aria-label="Red de Contacto"><span class="material-symbols-outlined" aria-hidden="true">corporate_fare</span></a>
+            <a class="social__link" href="#" aria-label="Publicaciones"><span class="material-symbols-outlined" aria-hidden="true">public</span></a>
           </div>
           <div class="footer__box">
             <strong>Asistencia In Situ</strong>
@@ -530,6 +545,11 @@
       </div>
     </div>
   </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden>
+    <span class="material-symbols-outlined" aria-hidden="true">download</span>
+    <span class="toast__text"></span>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
